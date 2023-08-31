@@ -1,50 +1,67 @@
 /* Container holding the image and the text */
+
+body{
+  background-color: rgb(80, 82, 99);
+}
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color:rgb(11, 9, 9);
     font-size: 30px;
+    
   }
   h1{
         position: absolute;
-        bottom: 90%;
-        left: 45%;
+        color: white;
+        left: 20%;
       }
   
+     
   
   /* Andreas text */
   .andreas {
     position: absolute;
-    top: 20%;
+   
     left: 20%;
+    margin-top: 15%;
+    border-radius: 10px;
+
+  }
+  #border:hover{
+    background-color: rgb(114, 114, 121);
   }
   
   /* Alma*/
   .alma {
     position: absolute;
-    top: 20%;
-    left: 30%;
+    margin-top: 15%;
+    left: 35%;
+    border-radius: 10px;
+    
   }
   
   /* Ioannis */
   .ioannis {
     position: absolute;
-    top: 20%;
-    right: 30%;
+    margin-top: 15%;
+    right: 33%;
+    border-radius: 10px;
   }
   
   /* Matin text */
   .matin {
     position: absolute;
-    top: 20%;
+    margin-top: 15%;
     right: 20%;
+    border-radius: 10px;
   }
   
   /* Milla text */
   .milla {
     position: absolute;
-    top: 20%;
+    margin-top: 15%;
     left: 50%;
+    border-radius: 10px;
     
   }
 
